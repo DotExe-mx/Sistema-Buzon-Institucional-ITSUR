@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l8yGWc5VnR9/fEFtC7kq/4P1O01aEWdrnE/HI3uOGy6LYFyRJ5ssSIWx4sJ9UghVO3u4zMibZ7PVPsxnELfbVQ==",
+  "dgSpecHash": "q27ORl4OMicRx+mGzcwEcvBSKRcl0TNwA8m3oUvTghKobFN8niKuA5umZfse21NtzgH8+DEMyI8sA1jS1RtrJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dotexemx\\Desktop\\clon\\sistemabuzon\\SIS_QSF.csproj",
+  "projectFilePath": "C:\\Users\\dotexemx\\Desktop\\sistemabuzon\\SIS_QSF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dotexemx\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\dotexemx\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.6\\microsoft.aspnetcore.authorization.5.0.6.nupkg.sha512",

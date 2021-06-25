@@ -8399,11 +8399,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dotexemx\\Desktop\\clon\\sistemabuzon\\SIS_QSF.csproj",
+      "projectUniqueName": "C:\\Users\\dotexemx\\Desktop\\sistemabuzon\\SIS_QSF.csproj",
       "projectName": "SIS_QSF",
-      "projectPath": "C:\\Users\\dotexemx\\Desktop\\clon\\sistemabuzon\\SIS_QSF.csproj",
+      "projectPath": "C:\\Users\\dotexemx\\Desktop\\sistemabuzon\\SIS_QSF.csproj",
       "packagesPath": "C:\\Users\\dotexemx\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dotexemx\\Desktop\\clon\\sistemabuzon\\obj\\",
+      "outputPath": "C:\\Users\\dotexemx\\Desktop\\sistemabuzon\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dotexemx\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8505,7 +8505,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }
