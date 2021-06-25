@@ -1,0 +1,68 @@
+@model IEnumerable<SIS_QSF.Models.Solicitud>
+
+@{
+    ViewData["Title"] = "Lista de solicitudes";
+}
+
+<h1>Lista de solicitudes</h1>
+
+<form asp-controller="Solicitud" asp-action="Index" method="get">
+    <p>
+        Buscar: <input type="text" name="SearchString" />
+        <input type="submit" value="Buscar" />
+    </p>
+</form>
+<table class="table" enctype="multipart/form-data">
+    <thead>
+        <tr>
+            <th>
+                Imagen
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telefono)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </th>
+            <th>
+                Departamento
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+               <img class="img-thumbnail" src="@item.ImagenPath"  asp-append-version="true" alt="@item.ImagenPath" style="width: 100px; height: 100px;"/>  
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefono)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Depa.Nombre)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
