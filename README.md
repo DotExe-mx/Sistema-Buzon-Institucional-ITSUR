@@ -11,7 +11,7 @@
 <strong>** Registrar usuario (Identity).</strong>
 ![Alt text](imagesPreview/login.png)<br>
 <strong>** Iniciar Sesion (Identity).</strong>
-![Alt text](imagesPreview/registrar.png)<br>
+![Alt text](imagesPreview/register.png)<br>
 <strong>** Generar queja (CRUD).</strong>
 ![Alt text](imagesPreview/usuario_crear.png)<br>
 <strong>** Bandeja de solicitudes (Identity & Roles).</strong>
