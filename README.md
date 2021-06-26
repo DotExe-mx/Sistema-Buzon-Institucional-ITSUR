@@ -6,6 +6,21 @@
 
 <p>El sistema por su lado maneja:<br>*Gestion de autenticacion y roles de usuarios.<br>*Emitir una solicitud, queja o sugerencia.<br>*Subir evidencias.<br>*Funciones de Crear, Eliminar, Editar y Actualizar.</p><br>
 
-<strong>Inicio</strong>
-![Alt text](imagesPreview/inicio.png)
+<strong>** Inicio</strong>
+![Alt text](imagesPreview/inicio.png)<br>
+<strong>** Registrar usuario (Identity).</strong>
+![Alt text](imagesPreview/login.png)<br>
+<strong>** Iniciar Sesion (Identity).</strong>
+![Alt text](imagesPreview/registrar.png)<br>
+<strong>** Generar queja (CRUD).</strong>
+![Alt text](imagesPreview/usuario_crear.png)<br>
+<strong>** Bandeja de solicitudes (Identity & Roles).</strong>
+![Alt text](imagesPreview/bandeja.png)<br>
+<strong>** Detalles de la queja (CRUD).</strong>
+![Alt text](imagesPreview/calidad_detallas.png)<br>
+<strong>** Eliminar queja (CRUD).</strong>
+![Alt text](imagesPreview/calidad_eliminar.png)<br>
+<strong>** Denegar accesos no autorizados (Identity).</strong>
+![Alt text](imagesPreview/acceso_denegado.png)<br>
+
 
