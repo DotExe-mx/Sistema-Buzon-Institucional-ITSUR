@@ -17,7 +17,7 @@
 <strong>** Bandeja de solicitudes (Identity & Roles).</strong>
 ![Alt text](imagesPreview/bandeja.png)<br>
 <strong>** Detalles de la queja (CRUD).</strong>
-![Alt text](imagesPreview/calidad_detallas.png)<br>
+![Alt text](imagesPreview/calidad_detalles.png)<br>
 <strong>** Eliminar queja (CRUD).</strong>
 ![Alt text](imagesPreview/calidad_eliminar.png)<br>
 <strong>** Denegar accesos no autorizados (Identity).</strong>
